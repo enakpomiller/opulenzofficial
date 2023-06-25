@@ -59,7 +59,9 @@ router.post('/createuser', async (req,res) =>{
 })
 
 
-
+router.get('/data',(req,res) =>{
+   return res.status(200).json(" display dummy text");
+})
 
 
 
